@@ -33,6 +33,6 @@
 
     console.log(prezzoFinale)
 
-    document.getElementById("text").innerHTML = "Il prezzo del tuo biglietto è di prezzoFinale €"
+    document.getElementById("text").innerHTML = `Il costo del tuo biglietto è di ${prezzoFinale} €`
 
 // output on screen del prezzo del biglietto (da sistemare con solo 2 decimalis)
